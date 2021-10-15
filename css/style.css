@@ -1,0 +1,185 @@
+body {
+
+    background-color: aqua;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 18px;
+}
+hr{
+    background-color:#000;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+body *{
+    /* border: 1px red solid; */
+}
+header{
+    background-color: cadetblue;
+}
+section {
+    background-color:darkgrey;
+    padding: 10px;
+}
+footer{
+    background-color:#000;
+    margin: 0;
+    height: 100px;
+    color: #fff;
+    padding: 20px;
+
+}
+
+.nav-menu * {
+margin-right: 10px;
+margin-right: 10px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.search-box{
+    margin-top: 50px;
+    
+    
+}
+.search-box form {
+
+    margin-left: auto;
+    margin-right: auto;
+}
+.search-box form input {
+    height: 30px;
+    width: 200px;
+}
+.akcii{
+    margin-top: 50px;
+}
+.container-blok {
+    width: 25vw;
+    height: 300px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: darkgray;
+}
+.closed-akcii {
+    margin-top: 50px;
+    background-color: darkblue;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.main-content{
+    height: 70vh;
+}
+.main-content form {
+    padding-top: 100px;
+    text-align: center;
+}
+input {
+    width: 300px;
+    height: 50px;
+}
+.test-1-fbs{
+    width: 200px;
+    height: 50px;
+}
+.box-output {
+    background-color:darksalmon;
+    padding: 15px;
+    font-size: 20px;
+    margin-top: 50px;
+}
+/* seat */
+.select-seat {
+    /* width: 90vw; */
+    padding-top: 50px;
+    height: 90vh;
+}
+
+.ryad {
+    display: flex;
+    grid-row: auto;
+    border: yellow 1px solid;
+    display: flex;
+    width: 200px;
+    height: 100px;
+}
+.mesto {
+    border: 1px black solid;
+    width: 50px;
+    height: 50px;
+}
+.first-half{
+margin-left: 200px;
+}
+.twenty-half {
+    margin-right: 200px;
+}
+.text{
+    margin-left: 100px;
+}
+/* booking section */
+.booking-section {
+    padding: 50px;
+    font-size: 19px;
+}
+.data-reys{
+    width: 30vw;
+    background-color:whitesmoke;
+    padding-left: 20px;
+}
+.data-pasazhir {
+    width: 30vw;
+    background-color:whitesmoke;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    
+}
+.pasazhir-block {
+    padding: 20px;
+    background-color:tomato;
+    margin-bottom: 10px;
+}
+.btns {
+    padding-left: 10px;
+    padding-top: 5px;
+    width: 200px;
+    height:  40px;
+    background-color:thistle;
+    justify-content: space-between;
+    font-size: 16px;
+}
+/* Booking manager */
+.book-manag{
+    font-size: 24px;
+    height: 90vh;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.info-perelet{
+    padding: 20px;
+    
+    width: 30vw;
+    background-color:#fff;
+}
+.register {
+    height: 90vh;
+}
+/* Account */
+.first-block {
+    flex-wrap: wrap;
+}
+.box-booking {
+    margin-top: 50px;
+    background-color:slategray;
+    padding: 20px;
+    width: 300px;
+}
+.last-biler{
+    height: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
